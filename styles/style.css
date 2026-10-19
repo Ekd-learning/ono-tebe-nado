@@ -223,7 +223,7 @@
 }
 
 .lots__card-list-item {
-  flex: 1 1 280px; /* here, 480px -> 280px */
+  flex: 0 1 calc((100% - 50px)/3); /* here, 1 1 480px -> 0 1 calc((100% - 50px)/3) */
   min-height: 450px;
 }
 
