@@ -160,7 +160,9 @@
 .cover__title {
   display: flex;
   flex-direction: column;
-  row-gap: 12px;
+  row-gap: 24px;
+  margin-top: -12px; /*0 before*/
+  margin-left: -12px; /*0 before*/
   margin-bottom: 135px;
   font-weight: 700;
   font-size: 100px;
@@ -173,6 +175,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  margin-left: 12px; 
 }
 
 .cover__description-text {
