@@ -134,7 +134,7 @@
 
 .header__address-link {
   text-underline-offset: 5px;
-  transition: text-underline-offset 0.3s ease;
+  /* transition: text-underline-offset 0.3s ease; */
 }
 
 .header__address-link:hover {
@@ -160,7 +160,7 @@
 .cover__title {
   display: flex;
   flex-direction: column;
-  row-gap: 24px;
+  row-gap: 12px;
   margin-bottom: 135px;
   font-weight: 700;
   font-size: 100px;
