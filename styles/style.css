@@ -221,6 +221,7 @@
   display: inline-block;
   margin-left: 40px;
   margin-top: 30px;
+  /* margin-top: 20px; */
   font-weight: 400;
   font-size: 20px;
   line-height: normal;
@@ -343,7 +344,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: start;
-  padding: 90px 50px;
+  padding: 90px 50px 81px 50px;
 }
 
 .footer__address-link {
