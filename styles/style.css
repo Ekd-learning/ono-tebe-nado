@@ -296,7 +296,8 @@
   display: grid;
   grid-template-columns: min-content 1fr;
   column-gap: 28px;
-  padding: 130px 50px 90px 50px;
+  padding: 105px 0px 90px 0px;
+  margin-left: -23px;
 }
 
 .about__logo {
@@ -312,12 +313,14 @@
   width: 148px;
   height: 114px;
   margin: auto;
+  /* margin-top: 50px; */
   object-fit: contain;
 }
 
 .about__title {
   margin-top: 102px;
   margin-bottom: 100px;
+  margin-left: -50px;
   font-weight: 700;
   font-size: 40px;
   line-height: normal;
@@ -325,6 +328,7 @@
 }
 
 .about__text {
+  margin-left: -50px;
   font-weight: 400;
   font-size: 20px;
   line-height: normal;
